@@ -130,11 +130,11 @@ asyncio.run(main())
 اگر با برنامه نویسی Asynchronous آشنایی ندارید میتونید با همون روش ساده کد بزنید و مشکلی نداره
 </p>
 
-<blockquote>
+<blockquote align="right" dir="rtl">
 <p>اگر با برنامه نویسی Asynchronous آشنا باشید میدونید که یک کد Async باید حتما یک فانکشن ورودی داشته باشه</p>
 </blockquote>
 
-<blockquote>
+<blockquote align="right" dir="rtl">
 <p>اگر از برنامه نویسی Asynchronous استفاده میکنید تمام سرویس های بله در بلتون رو هم باید به صورت Async فراخوانی کنید</p>
 </blockquote>
 
