@@ -56,3 +56,7 @@ bot.run()
 <dt>شهودی</dt>
 <dd>تایپ هینت شده و دارای پشتیبانی عالی از ادیتورها</dd>
 </dl>
+
+<h2 align="right" dir="rtl">لینک ها</h2>
+
+<a href="https://github.com/Balethon/Balethon">صفحه گیتهاب</a>
