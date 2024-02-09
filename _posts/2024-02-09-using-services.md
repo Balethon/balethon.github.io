@@ -3,11 +3,11 @@ categories: [Quick Start]
 tags: []
 ---
 
-# استفاده از سرویس ها
+<h1 align="right" dir="rtl">استفاده از سرویس ها</h1>
 
-توی این مقاله استفاده از سرویس های بله آموزش داده میشه
+<p align="right" dir="rtl">توی این مقاله استفاده از سرویس های بله آموزش داده میشه</p>
 
-اول باید یه Client بسازیم
+<p align="right" dir="rtl">اول باید یه Client بسازیم</p>
 
 ```python
 from balethon import Client
@@ -15,34 +15,34 @@ from balethon import Client
 bot = Client("TOKEN")  # Replace "TOKEN" with your actual token here
 ```
 
-حالا قبل از هر کاری اول باید باتمون رو به بله وصل کنیم
+<p align="right" dir="rtl">حالا قبل از هر کاری اول باید باتمون رو به بله وصل کنیم</p>
 
 ```python
 bot.connect()
 ```
 
-حالا میتونیم با بات خودمون از سرویس های بله استفاده کنیم
+<p align="right" dir="rtl">حالا میتونیم با بات خودمون از سرویس های بله استفاده کنیم</p>
 
-مثلا اطلاعات خود بات رو بگیریم و پرینتشون کنیم
+<p align="right" dir="rtl">مثلا اطلاعات خود بات رو بگیریم و پرینتشون کنیم</p>
 
 ```python
 me = bot.get_me()
 print(me)
 ```
 
-یا یک پیامی به یک نفر بفرستیم
+<p align="right" dir="rtl">یا یک پیامی به یک نفر بفرستیم</p>
 
 ```python
 bot.send_message("@username", "Hello")
 ```
 
-ولی با این روش باید یادمون باشه که بعد از تموم شدن کار اتصال بات رو با بله قطع کنیم
+<p align="right" dir="rtl">ولی با این روش باید یادمون باشه که بعد از تموم شدن کار اتصال بات رو با بله قطع کنیم</p>
 
 ```python
 bot.disconnect()
 ```
 
-یعنی برای مثال کد کامل ما اینجوری میشه
+<p align="right" dir="rtl">یعنی برای مثال کد کامل ما اینجوری میشه</p>
 
 ```python
 from balethon import Client
@@ -54,7 +54,7 @@ bot.send_message("@username", "Hello")
 bot.disconnect()
 ```
 
-یک روش بهتر برای وصل کردن بات به بله هست
+<p align="right" dir="rtl">یک روش بهتر برای وصل کردن بات به بله هست</p>
 
 ```python
 from balethon import Client
@@ -65,5 +65,7 @@ with bot:
     bot.send_message("@username", "Hello")
 ```
 
-وقتی این شکلی انجام بدیم دیگه نیاز نیست خودمون اتصال با بله رو قطع کنیم و خودکار قطع میشه
+<p align="right" dir="rtl">
+وقتی این شکلی انجام بدیم دیگه نیاز نیست خودمون اتصال با بله رو قطع کنیم و خودکار قطع میشه</br>
 این روش پیشنهاد میشه چون حتی اگر کد به طور ناگهانی متوقف بشه قطع شدن ارتباط تضمین شده
+</p>
