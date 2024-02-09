@@ -18,8 +18,7 @@ bot = Client("TOKEN")  # Replace "TOKEN" with your actual token here
 ```
 
 <blockquote align="right" dir="rtl">
-<p>باید «TOKEN» رو با توکن بات خودتون عوض کنید
-{: .prompt-warning }</p>
+<p>باید «TOKEN» رو با توکن بات خودتون عوض کنید</p>
 </blockquote>
 
 <br>
@@ -55,8 +54,7 @@ bot.send_message("@username", "Hello")  # Replace "@username" with your actual u
 ```
 
 <blockquote align="right" dir="rtl">
-<p>باید «@username» رو با نام کاربری مورد نظر خودتون عوض کنید
-{: .prompt-warning }</p>
+<p>باید «@username» رو با نام کاربری مورد نظر خودتون عوض کنید</p>
 </blockquote>
 
 <br>
@@ -133,13 +131,11 @@ asyncio.run(main())
 </p>
 
 <blockquote>
-<p>اگر با برنامه نویسی Asynchronous آشنا باشید میدونید که یک کد Async باید حتما یک فانکشن ورودی داشته باشه
-{: .prompt-info }</p>
+<p>اگر با برنامه نویسی Asynchronous آشنا باشید میدونید که یک کد Async باید حتما یک فانکشن ورودی داشته باشه</p>
 </blockquote>
 
 <blockquote>
-<p>اگر از برنامه نویسی Asynchronous استفاده میکنید تمام سرویس های بله در بلتون رو هم باید به صورت Async فراخوانی کنید
-{: .prompt-warning }</p>
+<p>اگر از برنامه نویسی Asynchronous استفاده میکنید تمام سرویس های بله در بلتون رو هم باید به صورت Async فراخوانی کنید</p>
 </blockquote>
 
 <p align="right" dir="rtl">ولی کدمون هنوز هم قابل بهبود دادن هست</p>
