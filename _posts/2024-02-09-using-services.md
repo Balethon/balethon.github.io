@@ -7,6 +7,8 @@ tags: []
 
 <p align="right" dir="rtl">توی این مقاله استفاده از سرویس های بله آموزش داده میشه</p>
 
+<h2 align="right" dir="rtl">نمونه سازی Client</h2>
+
 <p align="right" dir="rtl">اول باید یه Client بسازیم</p>
 
 ```python
@@ -17,6 +19,8 @@ bot = Client("TOKEN")  # Replace "TOKEN" with your actual token here
 
 <br>
 
+<h2 align="right" dir="rtl">اتصال به بله</h2>
+
 <p align="right" dir="rtl">حالا قبل از هر کاری اول باید باتمون رو به بله وصل کنیم</p>
 
 ```python
@@ -24,6 +28,8 @@ bot.connect()
 ```
 
 <br>
+
+<h2 align="right" dir="rtl">فراخوانی سرویس ها</h2>
 
 <p align="right" dir="rtl">
 حالا میتونیم با بات خودمون از سرویس های بله استفاده کنیم<br>
@@ -45,6 +51,8 @@ bot.send_message("@username", "Hello")  # Replace "@username" with your actual u
 
 <br>
 
+<h2 align="right" dir="rtl">قطع اتصال از بله</h2>
+
 <p align="right" dir="rtl">ولی با این روش باید یادمون باشه که بعد از تموم شدن کار اتصال بات رو با بله قطع کنیم</p>
 
 ```python
@@ -52,6 +60,8 @@ bot.disconnect()
 ```
 
 <br>
+
+<h2 align="right" dir="rtl">جمع بندی</h2>
 
 <p align="right" dir="rtl">یعنی برای مثال کد کامل ما اینجوری میشه</p>
 
@@ -66,6 +76,8 @@ bot.disconnect()
 ```
 
 <br>
+
+<h2 align="right" dir="rtl">کانتکست منیجر</h2>
 
 <p align="right" dir="rtl">یه روش بهتر برای وصل کردن بات به بله هست</p>
 
@@ -82,3 +94,45 @@ with bot:
 وقتی این شکلی انجام بدیم دیگه نیاز نیست خودمون اتصال با بله رو قطع کنیم و خودکار قطع میشه<br>
 این روش پیشنهاد میشه چون حتی اگر کد به طور ناگهانی متوقف بشه قطع شدن ارتباط تضمین شده
 </p>
+
+<br>
+
+<h2 align="right" dir="rtl">برنامه نویسی Asynchronous</h2>
+
+<p align="right" dir="rtl">یه کار دیگه که میتونیم بهتر انجام بدیم اینه که به صورت Asynchronous کد بزنیم</p>
+
+```python
+import asyncio
+
+from balethon import Client
+
+bot = Client("TOKEN")  # Replace "TOKEN" with your actual token here
+
+
+async def main():
+    async with bot:
+        await bot.send_message("@username", "Hello")  # Replace "@username" with your actual username here
+
+
+asyncio.run(main())
+```
+
+<p align="right" dir="rtl">
+این روش پیشنهاد میشه چون از خاصیت برنامه نویسی Asynchronous بهره میگیریم و میتونه سرعت کدمون رو ببره بالا<br>
+اگر با برنامه نویسی Asynchronous آشنایی ندارید میتونید با همون روش ساده کد بزنید و مشکلی نداره
+</p>
+
+<p align="right" dir="rtl">این کد رو هنوز هم میشه بهتر کرد</p>
+
+```python
+from balethon import Client
+
+bot = Client("TOKEN")  # Replace "TOKEN" with your actual token here
+
+
+async def main(client):
+    await bot.send_message("@username", "Hello")  # Replace "@username" with your actual username here
+
+
+bot.run(main())
+```
