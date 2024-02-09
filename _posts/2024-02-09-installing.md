@@ -1,3 +1,8 @@
+---
+categories: [Quick Start]
+tags: []
+---
+
 # نصب کردن
 
 ```bash
