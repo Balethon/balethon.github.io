@@ -9,7 +9,10 @@ tags: []
 
 <h2 align="right" dir="rtl">نمونه سازی Client</h2>
 
-<p align="right" dir="rtl">اول باید یه Client بسازیم</p>
+<p align="right" dir="rtl">
+اول باید Client رو از داخل بلتون فراخوانی کنیم و یه Client بسازیم<br>
+من Client ساخته شده خودم رو توی متغیر bot ذخیره میکنم
+</p>
 
 ```python
 from balethon import Client
