@@ -17,8 +17,10 @@ from balethon import Client
 bot = Client("TOKEN")  # Replace "TOKEN" with your actual token here
 ```
 
-> باید «TOKEN» رو با توکن بات خودتون عوض کنید
-{: .prompt-warning }
+<blockquote align="right" dir="rtl">
+<p>باید «TOKEN» رو با توکن بات خودتون عوض کنید
+{: .prompt-warning }</p>
+</blockquote>
 
 <br>
 
@@ -52,8 +54,10 @@ print(me)
 bot.send_message("@username", "Hello")  # Replace "@username" with your actual username here
 ```
 
-> باید «@username» رو با نام کاربری مورد نظر خودتون عوض کنید
-{: .prompt-warning }
+<blockquote align="right" dir="rtl">
+<p>باید «@username» رو با نام کاربری مورد نظر خودتون عوض کنید
+{: .prompt-warning }</p>
+</blockquote>
 
 <br>
 
@@ -85,7 +89,7 @@ bot.disconnect()
 
 <h2 align="right" dir="rtl">کانتکست منیجر</h2>
 
-<p align="right" dir="rtl">یه روش بهتر برای وصل کردن بات به بله هست</p>
+<p align="right" dir="rtl">یه روش بهتر برای وصل کردن بات به بله استفاده از کانتکست منیجره</p>
 
 ```python
 from balethon import Client
@@ -128,11 +132,15 @@ asyncio.run(main())
 اگر با برنامه نویسی Asynchronous آشنایی ندارید میتونید با همون روش ساده کد بزنید و مشکلی نداره
 </p>
 
-> اگر با برنامه نویسی Asynchronous آشنا باشید میدونید که یک کد Async باید حتما یک فانکشن ورودی داشته باشه
-{: .prompt-info }
+<blockquote>
+<p>اگر با برنامه نویسی Asynchronous آشنا باشید میدونید که یک کد Async باید حتما یک فانکشن ورودی داشته باشه
+{: .prompt-info }</p>
+</blockquote>
 
-> اگر از برنامه نویسی Asynchronous استفاده میکنید تمام سرویس های بله در بلتون رو هم باید به صورت Async فراخوانی کنید
-{: .prompt-warning }
+<blockquote>
+<p>اگر از برنامه نویسی Asynchronous استفاده میکنید تمام سرویس های بله در بلتون رو هم باید به صورت Async فراخوانی کنید
+{: .prompt-warning }</p>
+</blockquote>
 
 <p align="right" dir="rtl">ولی کدمون هنوز هم قابل بهبود دادن هست</p>
 
