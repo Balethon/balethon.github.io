@@ -33,7 +33,7 @@ print(me)
 <p align="right" dir="rtl">یا یک پیامی به یک نفر بفرستیم</p>
 
 ```python
-bot.send_message("@username", "Hello")
+bot.send_message("@username", "Hello")  # Replace "@username" with your actual username here
 ```
 
 <p align="right" dir="rtl">ولی با این روش باید یادمون باشه که بعد از تموم شدن کار اتصال بات رو با بله قطع کنیم</p>
@@ -50,7 +50,7 @@ from balethon import Client
 bot = Client("TOKEN")  # Replace "TOKEN" with your actual token here
 
 bot.connect()
-bot.send_message("@username", "Hello")
+bot.send_message("@username", "Hello")  # Replace "@username" with your actual username here
 bot.disconnect()
 ```
 
@@ -62,10 +62,10 @@ from balethon import Client
 bot = Client("TOKEN")  # Replace "TOKEN" with your actual token here
 
 with bot:
-    bot.send_message("@username", "Hello")
+    bot.send_message("@username", "Hello")  # Replace "@username" with your actual username here
 ```
 
 <p align="right" dir="rtl">
-وقتی این شکلی انجام بدیم دیگه نیاز نیست خودمون اتصال با بله رو قطع کنیم و خودکار قطع میشه</br>
+وقتی این شکلی انجام بدیم دیگه نیاز نیست خودمون اتصال با بله رو قطع کنیم و خودکار قطع میشه<br>
 این روش پیشنهاد میشه چون حتی اگر کد به طور ناگهانی متوقف بشه قطع شدن ارتباط تضمین شده
 </p>
