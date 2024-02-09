@@ -5,7 +5,7 @@ tags: []
 
 <h1 align="right" dir="rtl">استفاده از سرویس ها</h1>
 
-<p align="right" dir="rtl">توی این مقاله استفاده از سرویس های بله آموزش داده میشه</p>
+<p align="right" dir="rtl"><strong>توی این مقاله استفاده از سرویس های بله آموزش داده میشه</strong></p>
 
 <h2 align="right" dir="rtl">نمونه سازی Client</h2>
 
