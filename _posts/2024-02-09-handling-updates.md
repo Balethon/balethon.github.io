@@ -29,3 +29,12 @@ def greet(message):
 async def greet(message):
     await message.reply("Hello")
 ```
+
+```python
+from balethon import conditions
+
+
+@bot.on_message(conditions.private)
+def greet(message):
+    message.reply("Hello")
+```
