@@ -7,6 +7,8 @@ tags: []
 
 <p align="right" dir="rtl"><strong>توی این مقاله استفاده از سرویس های بله آموزش داده میشه</strong></p>
 
+<br>
+
 <h2 align="right" dir="rtl">نمونه سازی Client</h2>
 
 <p align="right" dir="rtl">
