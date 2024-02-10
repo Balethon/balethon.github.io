@@ -3,9 +3,11 @@ categories: [Examples]
 tags: []
 ---
 
-## بات گفتگو
+<h1 align="right" dir="rtl">بات گفتگو</h1>
 
-**به این بات یک پیام بدهید تا یک گفتگو با شما شروع کند**
+<p align="right" dir="rtl"><strong>
+به این بات یه پیام بدید تا گفتگو رو با شما شروع کنه
+</strong></p>
 
 ```python
 from balethon import Client

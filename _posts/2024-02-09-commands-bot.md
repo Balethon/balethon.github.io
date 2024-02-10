@@ -3,14 +3,16 @@ categories: [Examples]
 tags: []
 ---
 
-## بات کامندها
+<h1 align="right" dir="rtl">بات کامندها</h1>
 
-**این بات 4 دستور دارد\
-/start\
-/help\
-/say_hello\
-/count_to_ten\
-آن ها را تست کنید**
+<p align="right" dir="rtl"><strong>
+این بات 4 تا دستور داره<br>
+/start<br>
+/help<br>
+/say_hello<br>
+/count_to_ten<br>
+اون ها رو تست کنید
+</strong></p>
 
 ```python
 from balethon import Client
