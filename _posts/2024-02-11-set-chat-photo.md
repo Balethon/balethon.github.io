@@ -16,7 +16,7 @@ tags: []
 </li>
 </ul>
 <ul>
-<li><strong>photo (<a href="https://docs.python.org/3/library/stdtypes.html#str">str</a> | <code>bytes</code> | <code>BinaryIO</code> | <code>InputMedia</code>)</strong><blockquote dir="rtl">
+<li><strong>photo (<a href="https://docs.python.org/3/library/stdtypes.html#str">str</a> | <a href="https://docs.python.org/3/library/stdtypes.html#bytes">bytes</a> | <a href="https://docs.python.org/3/library/typing.html#typing.BinaryIO">BinaryIO</a> | <code>InputMedia</code>)</strong><blockquote dir="rtl">
 <p><strong>عکسی پروفایلی که برای چت قرار داده میشود، میتواند آیدی یک فایل که از قبل در بله آپلود شده باشد، میتواند لینک یک فایل در وب باشد، میتواند آدرس یک فایل در دستگاه شما باشد، میتواند یک آبجکت بایت یا باینری یا اینپوت مدیای حاوی اطلاعات لازم باشد</strong></p>
 </blockquote>
 </li>
