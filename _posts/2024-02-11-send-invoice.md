@@ -34,7 +34,7 @@ tags: []
 </li>
 </ul>
 <ul>
-<li><strong>prices (<code>list[LabeledPrice]</code>)</strong><blockquote dir="rtl">
+<li><strong>prices (<a href="https://docs.python.org/3/library/stdtypes.html#list">list</a>[<code>LabeledPrice</code>])</strong><blockquote dir="rtl">
 <p><strong>لیست قیمت های برچسب دار</strong></p>
 </blockquote>
 </li>
