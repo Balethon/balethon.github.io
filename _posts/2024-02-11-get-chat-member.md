@@ -25,7 +25,7 @@ tags: []
 <h2>Returns</h2>
 
 <blockquote>
-<p><a href="balethon.ir/posts/chat-member">ChatMember</a></p>
+<p><code>ChatMember</code></p>
 </blockquote>
 
 <h2>Example</h2>

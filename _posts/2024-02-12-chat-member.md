@@ -10,7 +10,7 @@ tags: []
 <h2>Parameters</h2>
 
 <ul>
-<li>user (<a href="balethon.ir/posts/user">User</a>)<blockquote dir="rtl">
+<li>user (<code>User</code>)<blockquote dir="rtl">
 <p>اطلاعات کاربر</p>
 </blockquote>
 </li>

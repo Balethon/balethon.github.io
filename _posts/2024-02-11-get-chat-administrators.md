@@ -19,7 +19,7 @@ tags: []
 <h2>Returns</h2>
 
 <blockquote>
-<p><a href="https://docs.python.org/3/library/stdtypes.html#list">list</a>[<a href="balethon.ir/posts/chat-member">ChatMember</a>]</p>
+<p><a href="https://docs.python.org/3/library/stdtypes.html#list">list</a>[<code>ChatMember</code>]</p>
 </blockquote>
 
 <h2>Example</h2>
