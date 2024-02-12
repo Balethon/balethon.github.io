@@ -16,13 +16,13 @@ tags: []
 </li>
 </ul>
 <ul>
-<li>author (<code>User</code>)<blockquote dir="rtl">
+<li>author (<a href="https://balethon.ir/posts/user">User</a>)<blockquote dir="rtl">
 <p>فرستنده درخواست</p>
 </blockquote>
 </li>
 </ul>
 <ul>
-<li>message (<code>Message</code>)<blockquote dir="rtl">
+<li>message (<a href="https://balethon.ir/posts/message">Message</a>)<blockquote dir="rtl">
 <p>پیامی که دکمه آن برای فرستادن درخواست کلیک شده</p>
 </blockquote>
 </li>

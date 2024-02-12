@@ -31,7 +31,7 @@ tags: []
 <h2>Returns</h2>
 
 <blockquote>
-<p><code>Message</code></p>
+<p><a href="https://balethon.ir/posts/message">Message</a></p>
 </blockquote>
 
 <h2>Example</h2>
