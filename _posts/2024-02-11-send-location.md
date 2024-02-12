@@ -39,7 +39,7 @@ tags: []
 <h2>Returns</h2>
 
 <blockquote>
-<p><code>Message</code></p>
+<p><a href="./2024-02-12-message">Message</a></p>
 </blockquote>
 
 <h2>Example</h2>
