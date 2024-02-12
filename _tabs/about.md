@@ -41,7 +41,7 @@ bot.run()
 <dl align="right" dir="rtl">
 <dt>آسان</dt>
 <dd>کار سنگین را انجام میدهد و به کار حداقلی توسط کاربر نیاز دارد</dd>
-<dt>سریع</dt>
+<dt><a href="https://balethon.ir/posts/balethon-is-fast">سریع</a></dt>
 <dd>بهینه و ناهمزمان</dd>
 <dt>دارای مستندات</dt>
 <dd>بلتون را با کمک مستندات عمیق یاد بگیرید</dd>
