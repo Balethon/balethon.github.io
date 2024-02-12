@@ -5,10 +5,8 @@ tags: []
 
 <h1 align="right" dir="rtl">بات پرداخت</h1>
 
-<p align="right" dir="rtl"><strong>
-به این بات یه پیام بدید تا یه پیام دارای صورتحساب به شما بفرسته<br>
-بعد میتونید مبلغی رو توسط اون پرداخت کنید
-</strong></p>
+<p align="right" dir="rtl"><strong>به این بات یه پیام بدید تا یه پیام دارای صورتحساب به شما بفرسته<br/>
+بعد میتونید مبلغی رو توسط اون پرداخت کنید</strong></p>
 
 ```python
 from balethon import Client

@@ -7,14 +7,12 @@ tags: []
 
 <p align="right" dir="rtl"><strong>توی این مقاله استفاده از سرویس های بله آموزش داده میشه</strong></p>
 
-<br>
+<p align="right" dir="rtl"><br/></p>
 
 <h2 align="right" dir="rtl">نمونه سازی Client</h2>
 
-<p align="right" dir="rtl">
-اول باید Client رو از داخل بلتون فراخوانی کنیم و یه Client بسازیم<br>
-من Client ساخته شده خودم رو توی متغیر bot ذخیره میکنم
-</p>
+<p align="right" dir="rtl">اول باید Client رو از داخل بلتون فراخوانی کنیم و یه Client بسازیم<br/>
+من Client ساخته شده خودم رو توی متغیر bot ذخیره میکنم</p>
 
 ```python
 from balethon import Client
@@ -22,11 +20,11 @@ from balethon import Client
 bot = Client("TOKEN")  # Replace "TOKEN" with your actual token here
 ```
 
-<blockquote align="right" dir="rtl">
+<blockquote>
 <p>باید «TOKEN» رو با توکن بات خودتون عوض کنید</p>
 </blockquote>
 
-<br>
+<p align="right" dir="rtl"><br/></p>
 
 <h2 align="right" dir="rtl">اتصال به بله</h2>
 
@@ -36,21 +34,19 @@ bot = Client("TOKEN")  # Replace "TOKEN" with your actual token here
 bot.connect()
 ```
 
-<br>
+<p align="right" dir="rtl"><br/></p>
 
 <h2 align="right" dir="rtl">فراخوانی سرویس ها</h2>
 
-<p align="right" dir="rtl">
-حالا میتونیم با بات خودمون از سرویس های بله استفاده کنیم<br>
-مثلا اطلاعات خود بات رو بگیریم و پرینتشون کنیم
-</p>
+<p align="right" dir="rtl">حالا میتونیم با بات خودمون از سرویس های بله استفاده کنیم<br/>
+مثلا اطلاعات خود بات رو بگیریم و پرینتشون کنیم</p>
 
 ```python
 me = bot.get_me()
 print(me)
 ```
 
-<br>
+<p align="right" dir="rtl"><br/></p>
 
 <p align="right" dir="rtl">یا یک پیامی به یک نفر بفرستیم</p>
 
@@ -58,11 +54,11 @@ print(me)
 bot.send_message("@username", "Hello")  # Replace "@username" with your actual username here
 ```
 
-<blockquote align="right" dir="rtl">
+<blockquote>
 <p>باید «@username» رو با نام کاربری مورد نظر خودتون عوض کنید</p>
 </blockquote>
 
-<br>
+<p align="right" dir="rtl"><br/></p>
 
 <h2 align="right" dir="rtl">قطع اتصال از بله</h2>
 
@@ -72,7 +68,7 @@ bot.send_message("@username", "Hello")  # Replace "@username" with your actual u
 bot.disconnect()
 ```
 
-<br>
+<p align="right" dir="rtl"><br/></p>
 
 <h2 align="right" dir="rtl">جمع بندی</h2>
 
@@ -88,7 +84,7 @@ bot.send_message("@username", "Hello")  # Replace "@username" with your actual u
 bot.disconnect()
 ```
 
-<br>
+<p align="right" dir="rtl"><br/></p>
 
 <h2 align="right" dir="rtl">کانتکست منیجر</h2>
 
@@ -103,12 +99,10 @@ with bot:
     bot.send_message("@username", "Hello")  # Replace "@username" with your actual username here
 ```
 
-<p align="right" dir="rtl">
-وقتی این شکلی انجام بدیم دیگه نیاز نیست خودمون اتصال با بله رو قطع کنیم و خودکار قطع میشه<br>
-این روش پیشنهاد میشه چون حتی اگر کد به طور ناگهانی متوقف بشه قطع شدن ارتباط تضمینیه
-</p>
+<p align="right" dir="rtl">وقتی این شکلی انجام بدیم دیگه نیاز نیست خودمون اتصال با بله رو قطع کنیم و خودکار قطع میشه<br/>
+این روش پیشنهاد میشه چون حتی اگر کد به طور ناگهانی متوقف بشه قطع شدن ارتباط تضمینیه</p>
 
-<br>
+<p align="right" dir="rtl"><br/></p>
 
 <h2 align="right" dir="rtl">برنامه نویسی Asynchronous</h2>
 
@@ -130,16 +124,14 @@ async def main():
 asyncio.run(main())
 ```
 
-<p align="right" dir="rtl">
-این روش پیشنهاد میشه چون از خاصیت برنامه نویسی Asynchronous بهره میگیریم و میتونه سرعت کدمون رو ببره بالا<br>
-اگر با برنامه نویسی Asynchronous آشنایی ندارید میتونید با همون روش ساده کد بزنید و مشکلی نداره
-</p>
+<p align="right" dir="rtl">این روش پیشنهاد میشه چون از خاصیت برنامه نویسی Asynchronous بهره میگیریم و میتونه سرعت کدمون رو ببره بالا<br/>
+اگر با برنامه نویسی Asynchronous آشنایی ندارید میتونید با همون روش ساده کد بزنید و مشکلی نداره</p>
 
-<blockquote align="right" dir="rtl">
+<blockquote>
 <p>اگر با برنامه نویسی Asynchronous آشنا باشید میدونید که یک کد Async باید حتما یک فانکشن ورودی داشته باشه</p>
 </blockquote>
 
-<blockquote align="right" dir="rtl">
+<blockquote>
 <p>اگر از برنامه نویسی Asynchronous استفاده میکنید تمام سرویس های بله در بلتون رو هم باید به صورت Async فراخوانی کنید</p>
 </blockquote>
 
@@ -158,7 +150,5 @@ async def main():
 bot.run(main())
 ```
 
-<p align="right" dir="rtl">
-اینجا بجای asyncio.run از bot.run استفاده کردیم تا کدمون خلاصه تر بشه<br>
-اینجوری هم خود بلتون قبل از اجرای main بات رو برای ما به بله وصل میکنه و بعد از تموم شدن کار اتصال رو قطع میکنه
-</p>
+<p align="right" dir="rtl">اینجا به‌جای asyncio.run از bot.run استفاده کردیم تا کدمون خلاصه تر بشه<br/>
+اینجوری هم خود بلتون قبل از اجرای main بات رو برای ما به بله وصل میکنه و بعد از تموم شدن کار اتصال رو قطع میکنه</p>

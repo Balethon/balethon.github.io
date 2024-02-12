@@ -5,9 +5,7 @@ tags: []
 
 <h1 align="right" dir="rtl">بات خوش آمد گویی</h1>
 
-<p align="right" dir="rtl"><strong>
-این بات رو توی یه گروه عضو کنید تا به اعضای جدید پیام خوش آمد گویی بفرسته
-</strong></p>
+<p align="right" dir="rtl"><strong>این بات رو توی یه گروه عضو کنید تا به اعضای جدید پیام خوش آمد گویی بفرسته</strong></p>
 
 ```python
 from balethon import Client

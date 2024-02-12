@@ -5,9 +5,7 @@ tags: []
 
 <h1 align="right" dir="rtl">بات گفتگو</h1>
 
-<p align="right" dir="rtl"><strong>
-به این بات یه پیام بدید تا گفتگو رو با شما شروع کنه
-</strong></p>
+<p align="right" dir="rtl"><strong>به این بات یه پیام بدید تا گفتگو رو با شما شروع کنه</strong></p>
 
 ```python
 from balethon import Client
