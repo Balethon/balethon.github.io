@@ -25,7 +25,7 @@ tags: []
 <h2>Returns</h2>
 
 <blockquote>
-<p><a href="./2024-02-12-chat-member">ChatMember</a></p>
+<p><a href="./chat-member">ChatMember</a></p>
 </blockquote>
 
 <h2>Example</h2>
