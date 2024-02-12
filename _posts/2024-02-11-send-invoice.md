@@ -95,7 +95,7 @@ tags: []
 <h2>Returns</h2>
 
 <blockquote>
-<p><a href="./message">Message</a></p>
+<p><a href="balethon.ir/posts/message">Message</a></p>
 </blockquote>
 
 <h2>Example</h2>
