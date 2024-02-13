@@ -20,7 +20,7 @@ from balethon import Client
 bot = Client("TOKEN")  # Replace "TOKEN" with your actual token here
 ```
 
-<blockquote>
+<blockquote dir="rtl">
 <p>باید «TOKEN» رو با توکن بات خودتون عوض کنید</p>
 </blockquote>
 
@@ -54,7 +54,7 @@ print(me)
 bot.send_message("@username", "Hello")  # Replace "@username" with your actual username here
 ```
 
-<blockquote>
+<blockquote dir="rtl">
 <p>باید «@username» رو با نام کاربری مورد نظر خودتون عوض کنید</p>
 </blockquote>
 
@@ -127,11 +127,11 @@ asyncio.run(main())
 <p align="right" dir="rtl">این روش پیشنهاد میشه چون از خاصیت برنامه نویسی Asynchronous بهره میگیریم و میتونه سرعت کدمون رو ببره بالا<br/>
 اگر با برنامه نویسی Asynchronous آشنایی ندارید میتونید با همون روش ساده کد بزنید و مشکلی نداره</p>
 
-<blockquote>
+<blockquote dir="rtl">
 <p>اگر با برنامه نویسی Asynchronous آشنا باشید میدونید که یک کد Async باید حتما یک فانکشن ورودی داشته باشه</p>
 </blockquote>
 
-<blockquote>
+<blockquote dir="rtl">
 <p>اگر از برنامه نویسی Asynchronous استفاده میکنید تمام سرویس های بله در بلتون رو هم باید به صورت Async فراخوانی کنید</p>
 </blockquote>
 
