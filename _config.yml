@@ -19,7 +19,7 @@ title: Balethon # the main title
 tagline: A library for creating bots in the Bale messenger  # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-A library for creating bots in the Bale messenger
+  A library for creating bots in the Bale messenger
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
