@@ -42,3 +42,10 @@ async def age_state(message):
 
 bot.run()
 ```
+
+
+<br>
+
+<p align="center" dir="rtl">پست قبلی: <a href="https://balethon.ir/posts/commands-bot">Commands Bot</a></p>
+
+<p align="center" dir="rtl">پست بعدی: <a href="https://balethon.ir/posts/client">Client</a></p>

@@ -15,3 +15,9 @@ tags: []
 </blockquote>
 </li>
 </ul>
+
+<br>
+
+<p align="center" dir="rtl">پست قبلی: <a href="https://balethon.ir/posts/connect-handler">Connect Handler</a></p>
+
+<p align="center" dir="rtl">پست بعدی: <a href="https://balethon.ir/posts/shutdown-handler">Shutdown Handler</a></p>

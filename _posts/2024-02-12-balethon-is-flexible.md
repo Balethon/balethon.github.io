@@ -1,5 +1,5 @@
 ---
-categories: [Why Balethon]
+categories: [What Is Balethon]
 tags: []
 ---
 
@@ -50,3 +50,9 @@ message["unexpected_value"]
 
 <p align="right" dir="rtl">و به آن مقدار غیر منتظره دسترسی پیدا میکنید<br/>
 همچنین دقیقا مانند استفاده از یک دیکشنری اگر تلاش به دسترسی به یک مقدار که وجود ندارد بکنید به ارور برخورد میکنید</p>
+
+<br>
+
+<p align="center" dir="rtl">پست قبلی: <a href="https://balethon.ir/posts/balethon-is-fast">Balethon Is Fast</a></p>
+
+<p align="center" dir="rtl">پست بعدی: <a href="https://balethon.ir/posts/balethon-is-intuitive">Balethon Is Intuitive</a></p>

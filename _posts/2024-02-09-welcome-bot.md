@@ -24,3 +24,9 @@ async def welcome_new_chat_members(message):
 
 bot.run()
 ```
+
+<br>
+
+<p align="center" dir="rtl">پست قبلی: <a href="https://balethon.ir/posts/inline-keyboards-bot">Inline Keyboards Bot</a></p>
+
+<p align="center" dir="rtl">پست بعدی: <a href="https://balethon.ir/posts/payment-bot">Payment Bot</a></p>

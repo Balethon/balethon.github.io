@@ -21,3 +21,9 @@ tags: []
 </blockquote>
 </li>
 </ul>
+
+<br>
+
+<p align="center" dir="rtl">پست قبلی: <a href="https://balethon.ir/posts/pre-checkout-query-handler">Pre Checkout Query Handler</a></p>
+
+<p align="center" dir="rtl">پست بعدی: <a href="https://balethon.ir/posts/anonymous-chat-bot">Anonymous Chat Bot</a></p>

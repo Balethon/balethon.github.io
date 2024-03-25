@@ -21,3 +21,9 @@ tags: []
 </blockquote>
 </li>
 </ul>
+
+<br>
+
+<p align="center" dir="rtl">پست قبلی: <a href="https://balethon.ir/posts/message-handler">Message Handler</a></p>
+
+<p align="center" dir="rtl">پست بعدی: <a href="https://balethon.ir/posts/update-handler">Update Handler</a></p>

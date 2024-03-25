@@ -1,5 +1,5 @@
 ---
-categories: [Why Balethon]
+categories: [What Is Balethon]
 tags: []
 ---
 
@@ -44,3 +44,9 @@ async def answer_message(client: Client, message: Message):
 ```
 
 <p align="right" dir="rtl">اینجا ما خودمون اومدیم صرفاً مشخص کردیم که <code>client</code> یک آبجکت از نوع <code>Client</code> و <code>message</code> یک آبجکت از نوع <code>Message</code> هست و با این کار ادیتور متوجه نوع این آبجکت ها میشه و میتونه به ما پیشنهادهای مفیدی موقع کد زدن بده</p>
+
+<br>
+
+<p align="center" dir="rtl">پست قبلی: <a href="https://balethon.ir/posts/balethon-is-flexible">Balethon Is Flexible</a></p>
+
+<p align="center" dir="rtl">پست بعدی: <a href="https://balethon.ir/posts/installing">Installing</a></p>

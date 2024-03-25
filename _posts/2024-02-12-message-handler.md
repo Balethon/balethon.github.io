@@ -21,3 +21,9 @@ tags: []
 </blockquote>
 </li>
 </ul>
+
+<br>
+
+<p align="center" dir="rtl">پست قبلی: <a href="https://balethon.ir/posts/get-chat">Get Chat</a></p>
+
+<p align="center" dir="rtl">پست بعدی: <a href="https://balethon.ir/posts/callback-query-handler">Callback Query Handler</a></p>

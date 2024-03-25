@@ -99,3 +99,9 @@ from balethon import conditions
 def greet(message):
     message.reply("Hello")
 ```
+
+<br>
+
+<p align="center" dir="rtl">پست قبلی: <a href="https://balethon.ir/posts/using-services">Using Services</a></p>
+
+<p align="center" dir="rtl">پست بعدی: <a href="https://balethon.ir/posts/echo-bot">Echo Bot</a></p>

@@ -47,3 +47,10 @@ async def count_to_ten(*, message):
 
 bot.run()
 ```
+
+
+<br>
+
+<p align="center" dir="rtl">پست قبلی: <a href="https://balethon.ir/posts/downloader-bot">Downloader Bot</a></p>
+
+<p align="center" dir="rtl">پست بعدی: <a href="https://balethon.ir/posts/conversation-bot">Conversation Bot</a></p>

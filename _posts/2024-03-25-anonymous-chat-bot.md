@@ -10,3 +10,7 @@ tags: []
 <p align="right" dir="rtl"><a href="https://github.com/Balethon/AnonymousChatBot/archive/refs/heads/main.zip">دانلود سورس کد</a></p>
 
 <p align="right" dir="rtl"><a href="https://github.com/Balethon/AnonymousChatBot">دیدن سورس کد در GitHub</a></p>
+
+<br>
+
+<p align="center" dir="rtl">پست قبلی: <a href="https://balethon.ir/posts/shipping-query-handler">Shipping Query Handler</a></p>

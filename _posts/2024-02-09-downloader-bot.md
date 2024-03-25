@@ -31,3 +31,9 @@ async def download_document(client, message):
 
 bot.run()
 ```
+
+<br>
+
+<p align="center" dir="rtl">پست قبلی: <a href="https://balethon.ir/posts/mandatory-membership-bot">Mandatory Membership Bot</a></p>
+
+<p align="center" dir="rtl">پست بعدی: <a href="https://balethon.ir/posts/commands-bot">Commands Bot</a></p>

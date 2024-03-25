@@ -45,3 +45,9 @@ tags: []
 ```python
 await bot.send_message(1234567890, "Hello!")
 ```
+
+<br>
+
+<p align="center" dir="rtl">پست قبلی: <a href="https://balethon.ir/posts/client">Client</a></p>
+
+<p align="center" dir="rtl">پست بعدی: <a href="https://balethon.ir/posts/get-chat">Get Chat</a></p>

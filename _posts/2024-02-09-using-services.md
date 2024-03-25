@@ -153,3 +153,9 @@ bot.run(main())
 <p align="right" dir="rtl">اینجا به‌جای asyncio.run از bot.run استفاده کردیم تا کدمون خلاصه تر بشه<br/>
 اینجوری هم خود بلتون قبل از اجرای main بات رو برای ما به بله وصل میکنه و بعد از تموم شدن کار اتصال رو قطع میکنه<br/>
 توی این روش هم مثل کانتکست منیجر قطع ارتباط خودکار تضمینیه</p>
+
+<br>
+
+<p align="center" dir="rtl">پست قبلی: <a href="https://balethon.ir/posts/installing">Installing</a></p>
+
+<p align="center" dir="rtl">پست بعدی: <a href="https://balethon.ir/posts/handling-updates">Handling Updates</a></p>

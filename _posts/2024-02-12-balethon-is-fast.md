@@ -1,5 +1,5 @@
 ---
-categories: [Why Balethon]
+categories: [What Is Balethon]
 tags: []
 ---
 
@@ -89,3 +89,5 @@ bot = Client("TOKEN",  max_workers=50)
 
 <p align="right" dir="rtl">در اینجا ما max_workers رو برابر با 50 قرار دادیم<br/>
 یعنی بلتون 50 تا thread در اختیار داره و میتونه تا 50 کار همزمان انجام بده</p>
+
+<p align="center" dir="rtl">پست بعدی: <a href="https://balethon.ir/posts/balethon-is-flexible">Balethon Is Flexible</a></p>

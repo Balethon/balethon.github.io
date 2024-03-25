@@ -10,3 +10,9 @@ tags: []
 ```bash
 pip install Balethon
 ```
+
+<br>
+
+<p align="center" dir="rtl">پست قبلی: <a href="https://balethon.ir/posts/balethon-is-intuitive">Balethon Is Intuitive</a></p>
+
+<p align="center" dir="rtl">پست بعدی: <a href="https://balethon.ir/posts/using-services">Using Services</a></p>

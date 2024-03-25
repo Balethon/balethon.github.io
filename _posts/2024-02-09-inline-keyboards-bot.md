@@ -36,3 +36,9 @@ async def answer_callback_query(callback_query):
 
 bot.run()
 ```
+
+<br>
+
+<p align="center" dir="rtl">پست قبلی: <a href="https://balethon.ir/posts/echo-bot">Echo Bot</a></p>
+
+<p align="center" dir="rtl">پست بعدی: <a href="https://balethon.ir/posts/welcome-bot">Welcome Bot</a></p>
