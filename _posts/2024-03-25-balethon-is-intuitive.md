@@ -26,7 +26,7 @@ async def answer_message(client, message):
     client.
 ```
 
-<p align="right" dir="rtl">اینجا ما وقتی بنویسیم message. یا client. ادیتور پیشنهاد خوبی به ما نمیده بخاطر اینکه نمیدونه این message و client چه نوع آبجکت هایی هستن</p>
+<p align="right" dir="rtl">اینجا ما وقتی بنویسیم <code>message.</code> یا <code>client.</code> ادیتور پیشنهاد خوبی به ما نمیده بخاطر اینکه نمیدونه این <code>message</code> و <code>client</code> چه نوع آبجکت هایی هستن</p>
 
 <p align="right" dir="rtl">راه حلش اینه که به این شکل بنویسیم</p>
 
@@ -43,4 +43,4 @@ async def answer_message(client: Client, message: Message):
     client.
 ```
 
-<p align="right" dir="rtl">اینجا ما خودمون اومدیم صرفاً مشخص کردیم که client یک آبجکت از نوع Client و message یک آبجکت از نوع Message هست و با این کار ادیتور متوجه نوع این آبجکت ها میشه و میتونه به ما پیشنهادهای مفیدی موقع کد زدن بده</p>
+<p align="right" dir="rtl">اینجا ما خودمون اومدیم صرفاً مشخص کردیم که <code>client</code> یک آبجکت از نوع <code>Client</code> و <code>message</code> یک آبجکت از نوع <code>Message</code> هست و با این کار ادیتور متوجه نوع این آبجکت ها میشه و میتونه به ما پیشنهادهای مفیدی موقع کد زدن بده</p>
