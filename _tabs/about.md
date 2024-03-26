@@ -55,9 +55,9 @@ bot.run()
 <dd>API پیام‌رسان بله را پوشش میدهد و ابزارهای مفیدی برای ساده‌سازی کار شما دارد</dd>
 <dt><a href="https://balethon.ir/posts/balethon-is-flexible">انعطاف‌پذیر</a></dt>
 <dd>غیرقابل منسوخ شدن و آماده برای پاسخ های غیرمنتظره از سمت وب سرویس پیام‌رسان بله</dd>
-<dt>شهودی</dt>
+<dt><a href="https://balethon.ir/posts/balethon-is-intuitive">شهودی</a></dt>
 <dd>دارای type-hint و پشتیبانی عالی از ادیتورها</dd>
-<dt>توسعه پذیر</dt>
+<dt><a href="https://balethon.ir/posts/balethon-is-extensible">توسعه پذیر</a></dt>
 <dd>همه سیستم های بلتون به سادگی قابل توسعه هستند</dd>
 </dl>
 
@@ -71,5 +71,7 @@ bot.run()
 <li><a href="https://ble.ir/balethon">کانال اخبار در بله</a></li>
 <li><a href="https://ble.ir/join/MTlhN2Q2Mz">گروه چت در بله</a></li>
 </ul>
+
+<br>
 
 <p align="center" dir="rtl">پست بعدی: <a href="https://balethon.ir/posts/installing">Installing</a></p>
