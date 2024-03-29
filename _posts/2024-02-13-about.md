@@ -45,7 +45,7 @@ bot.run()
 <dd>رابط کاربری مختصر و سطح بالا</dd>
 <dt><a href="https://balethon.ir/posts/balethon-is-fast">سریع</a></dt>
 <dd>بهینه و دارای پشتیبانی از برنامه نویسی Asynchronous</dd>
-<dt><a href="https://balethon.ir">مستند سازی شده</a></dt>
+<dt><a href="https://balethon.ir/posts/balethon-is-documented">مستند سازی شده</a></dt>
 <dd>در مستندات به طور جامع و عمیق به آموزش بلتون پرداخته شده</dd>
 <dt><a href="https://balethon.ir/posts/balethon-has-community">کامیونیتی</a></dt>
 <dd>انجمن مخصوص پرسش و پاسخ فعال و دوستانه</dd>
