@@ -93,7 +93,7 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: Balethon/Balethon # <gh-username>/<repo>
+    repo: Balethon/Balethon.github.io # <gh-username>/<repo>
     repo_id: 662727309
     category: General
     category_id: General
