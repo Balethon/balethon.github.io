@@ -2,7 +2,12 @@
 # the default layout is 'page'
 icon: fas fa-info-circle
 order: 4
+img_path: /assets/img/
 ---
+
+<p align="center">
+  <img src="logo.png" width="200" alt="Balethon">
+</p>
 
 <h1 align="right" dir="rtl">بله</h1>
 
