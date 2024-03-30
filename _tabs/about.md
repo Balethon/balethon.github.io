@@ -41,7 +41,7 @@ bot.run()
 <h2 align="right" dir="rtl">امکانات کلیدی</h2>
 
 <dl dir="rtl">
-<dt><a href="https://balethon.ir/posts/using-services">آسان</a></dt>
+<dt><a href="https://balethon.ir/posts/balethon-is-easy">آسان</a></dt>
 <dd>رابط کاربری مختصر و سطح بالا</dd>
 <dt><a href="https://balethon.ir/posts/balethon-is-fast">سریع</a></dt>
 <dd>بهینه و دارای پشتیبانی از برنامه نویسی Asynchronous</dd>
@@ -49,9 +49,9 @@ bot.run()
 <dd>در مستندات به طور جامع و عمیق به آموزش بلتون پرداخته شده</dd>
 <dt><a href="https://balethon.ir/posts/balethon-has-community">کامیونیتی</a></dt>
 <dd>انجمن مخصوص پرسش و پاسخ فعال و دوستانه</dd>
-<dt>معماری</dt>
+<dt><a href="https://balethon.ir/posts/balethon-has-design-options">معماری</a></dt>
 <dd>پشتیبانی از معماری های تابع گرا علاوه بر شیء گرا</dd>
-<dt>قدرتمند</dt>
+<dt><a href="https://balethon.ir/posts/balethon-is-powerful">قدرتمند</a></dt>
 <dd>API پیام‌رسان بله را پوشش میدهد و ابزارهای مفیدی برای ساده‌سازی کار شما دارد</dd>
 <dt><a href="https://balethon.ir/posts/balethon-is-flexible">انعطاف‌پذیر</a></dt>
 <dd>غیرقابل منسوخ شدن و آماده برای پاسخ های غیرمنتظره از سمت وب سرویس پیام‌رسان بله</dd>
