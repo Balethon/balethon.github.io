@@ -4,6 +4,10 @@ icon: fas fa-info-circle
 order: 4
 ---
 
+<p align="center">
+  <img src="/_posts/logo.png" width="200" alt="Balethon">
+</p>
+
 <h1 align="right" dir="rtl">بله</h1>
 
 <p align="right" dir="rtl">پیام‌رسان بانکی <a href="https://www.bale.ai/">بله</a>، شبکۀ اجتماعی‌مالی بانک ملّی ایران است که هم‌زمان امکان گفتگو و پرداخت را برای شما فراهم می‌کند</p>
