@@ -18,6 +18,13 @@ bot = Client("TOKEN")
 PROVIDER_TOKEN = "6037************"
 
 
+@bot.on_message(successful_payment)
+async def show_payment(client, message):
+    user = await client.get_chat(message.successful_payment.invoice_payload)
+    amount = message.successful_payment.total_amount
+    print(f"{user.full_name} paid {amount}")
+
+
 @bot.on_message(private)
 async def send_invoice(client, message):
     await client.send_invoice(
@@ -28,13 +35,6 @@ async def send_invoice(client, message):
         provider_token=PROVIDER_TOKEN,
         prices=[LabeledPrice(label="Some label", amount=1000000)]
     )
-
-
-@bot.on_message(successful_payment)
-async def show_pre_checkout_query(client, message):
-    user = await client.get_chat(message.successful_payment.invoice_payload)
-    amount = message.successful_payment.total_amount
-    print(f"{user.full_name} paid {amount}")
 
 
 bot.run()
