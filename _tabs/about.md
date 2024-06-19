@@ -71,10 +71,10 @@ bot.run()
 <h2 align="right" dir="rtl">لینک ها</h2>
 
 <ul dir="rtl">
-<li><a href="https://github.com/SajjadAlipour2006/Balethon">صفحه گیتهاب</a></li>
+<li><a href="https://github.com/Balethon/Balethon">صفحه گیتهاب</a></li>
 <li><a href="https://pypi.org/project/Balethon">صفحه پایپی</a></li>
 <li><a href="https://ble.ir/balethon">کانال اخبار در بله</a></li>
-<li><a href="https://ble.ir/join/MTlhN2Q2Mz">گروه چت در بله</a></li>
+<li><a href="https://ble.ir/join/AKFu3vHBm1">گروه چت در بله</a></li>
 </ul>
 
 <br>
