@@ -26,9 +26,7 @@ async def task(client):
 
 @bot.on_message()
 async def answer_message(message):
-    await message.reply(
-        f"Hello I'm the schedule bot"
-    )
+    await message.reply("Hello I'm the schedule bot")
 
 
 bot.run()

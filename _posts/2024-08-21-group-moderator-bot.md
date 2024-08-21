@@ -19,7 +19,7 @@ bot = Client("TOKEN")
 @bot.on_command()
 async def start(*, message):
     await message.reply(
-        f"Hello I'm the group moderator bot\nI can delete links, delete messages and ban members"
+        "Hello I'm the group moderator bot\nI can delete links, delete messages and ban members"
     )
 
 
@@ -27,7 +27,7 @@ async def start(*, message):
 async def delete(*, message):
     await message.reply_to_message.delete()
 
-    await message.reply(f"Deleted 1 message")
+    await message.reply("Deleted 1 message")
 
 
 @bot.on_command(reply)
