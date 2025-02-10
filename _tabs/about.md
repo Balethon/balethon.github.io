@@ -6,7 +6,7 @@ img_path: /assets/img/
 ---
 
 <p align="center">
-  <img src="logo.png" width="200" alt="Balethon">
+  <img src="/assets/img/logo.png" width="200" alt="Balethon">
 </p>
 
 <h1 align="right" dir="rtl">بله</h1>
